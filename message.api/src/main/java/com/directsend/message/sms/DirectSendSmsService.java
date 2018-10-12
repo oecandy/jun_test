@@ -15,7 +15,7 @@ import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 
-import com.farota.core.email.SmsService;
+import com.farota.core.sms.SmsService;
 
 @Service
 public class DirectSendSmsService implements SmsService {

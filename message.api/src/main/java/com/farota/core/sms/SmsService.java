@@ -1,4 +1,4 @@
-package com.farota.core.email;
+package com.farota.core.sms;
 
 import java.io.IOException;
 import java.util.List;
@@ -8,7 +8,7 @@ public interface SmsService {
 	/**
 	 * @param String title : MMS/LMS 발송시에 사용하는 제목 (최대 20자)
 	 * @param String contents : 받을 문자 내용 최대 2000바이트.
-	 * @param String fromNumber : 발신자
+	 * @param String fromNumber : 발신자  07088660910: 파로타 서비스(통합 서비스 이용 증명원), 01030229832 : 핸드폰 인증
 	 * @param List listReceiveNumber : 발송 할 고객 번호 , 로 구분함. ex) 01012341234,0101555123,010303040123
 	 * @return integer statusCode
 	 * <br>

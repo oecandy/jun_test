@@ -1,4 +1,4 @@
-package com.farota.core.sms;
+package com.farota.core.email;
 
 import java.io.IOException;
 import java.util.List;

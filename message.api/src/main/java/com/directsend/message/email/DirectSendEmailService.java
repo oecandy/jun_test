@@ -14,7 +14,7 @@ import javax.net.ssl.HttpsURLConnection;
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.lang3.StringUtils;
 
-import com.farota.core.sms.EmailService;
+import com.farota.core.email.EmailService;
 
 public class DirectSendEmailService implements EmailService {
 	
